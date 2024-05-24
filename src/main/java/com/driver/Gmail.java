@@ -4,7 +4,6 @@ import org.apache.commons.lang3.tuple.Triple;
 
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.HashMap;
 
 public class Gmail extends Email {
 
@@ -41,7 +40,7 @@ public class Gmail extends Email {
         for(int i=0;i<Inbox.size();i++){
             if(message.equals(Inbox.get(i).getRight())){
                 index = i;
-                break;;
+                break;
             }
         }
         if(index!=-1){
